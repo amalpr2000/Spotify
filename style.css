@@ -1,0 +1,498 @@
+body{
+    margin: 0;
+    padding:0;
+    color:#B3B3B3;
+    font-family: sans-serif;
+}
+
+#main{
+    height:713px;
+    width:100%;
+}
+
+/*  Navigation   Left Side */
+
+.side{
+    width:393px;
+    height:622px;
+    background-color:black;
+    float:left;
+    position: fixed;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:393px;
+    height:622px;
+    background-color:black;
+}
+li{
+    width:393px;
+    height:40px;
+}
+.menu1{
+    width:393px;
+    height: 202px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.logo img{
+    width: 132px;
+    height:40px;
+    margin-left: 18px;
+    padding: 25px 0px 29px 5px;
+}
+.ico img{
+    width:22px;
+    height:22px;
+    float: left;
+    padding: 0px 18px 0px 24px;
+}
+.icotext{
+    padding-top: 4px;
+}
+.space{
+    height:37px;
+    width: 393px;
+}
+#menu2{
+    width:393px;
+    height:62px;
+}
+.menu3{
+    width: 393px;
+    height:181px;
+    
+}
+.lasttext{
+    font-size: 10px; 
+    font-weight: none;
+    padding:0px 0px 16px 24px;
+}
+#lastbox{
+    padding-top: 106px;
+}
+
+li:hover{
+    cursor: pointer;
+    color:white;
+}
+.lasttext:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+/* Top Login  */
+
+
+
+.top{
+    width: 1143px;
+    height:64px;
+    background-color:#101010;
+    float:left;
+    position: fixed;
+    margin-left: 393px;
+}
+.head{
+    width: 1143px;
+    height:64px;
+}
+.login{
+    width: 112px;
+    height: 52px;
+    float: right;
+    padding: 6px 30px 6px 4px;
+}
+.login button{
+    width: 112px;
+    height: 52px;
+    border-radius: 500px;
+    font-size: 15px;
+    font-weight:550;
+    
+}
+.signup{
+    width: 112px;
+    height: 52px;
+    float: right;
+    padding: 6px 0px 6px 3px;
+}
+.signup button{
+    width: 112px;
+    height: 52px;
+    border:none;
+    background-color: #101010;
+    color:#B3B3B3;
+    font-size: 15px;
+    font-weight:545;
+}
+.signup button:hover{
+    font-size: 16px;
+    color:white;
+}
+.login button:hover{
+    width: 117px;
+    height: 53px;
+    font-size: 15px;
+    font-weight:700;
+}
+.line{
+    font-size: 26px;
+    font-weight: lighter;
+    float:right;
+    padding:17px 5px 17px 20px;
+
+}
+.download{
+    width: 110px;
+    height: 52px;
+    float: right;
+    padding: 6px 5px 6px 0px;  
+}
+.download button{
+    width: 115px;
+    height: 52px;
+    border:none;
+    background-color: #101010;
+    color:#B3B3B3;
+    font-size: 14px;
+    font-weight:600;
+}
+.support{
+    width: 102px;
+    height: 52px;
+    float: right;
+    padding: 6px 1px 6px 0px;  
+}
+.support button{
+    width: 102px;
+    height: 52px;
+    border:none;
+    background-color: #101010;
+    color:#B3B3B3;
+    font-size: 14px;
+    font-weight:600;
+}
+.support button:hover{
+    color: white;
+    font-size: 15px;
+}
+.download button:hover{
+    color: white;
+    font-size: 15px;
+}
+.backward{
+    height: 32px;
+    width: 32px;
+    float: left;
+    padding:16px 10px 16px 32px;
+}
+.backward img{
+    height:32px;
+    width:32px;
+}
+.forward{
+    height: 32px;
+    width: 32px;
+    float: left;
+    padding:16px 10px 16px 6px;
+}
+.forward img{
+    height:32px;
+    width:32px;
+}
+.forward :hover{
+    cursor: pointer;
+}
+.backward:hover{
+    cursor:not-allowed;
+}
+
+
+
+
+
+/* Contents */
+
+.content{
+    height:622px;
+    background: rgb(18,18,18);
+    background: linear-gradient(90deg, rgba(18,18,18,0.9447129193474265) 0%, rgba(16,16,16,1) 100%);
+    margin-left: 393px;
+    overflow: auto;
+}
+.heading1{
+    width: 1083px;
+    height: 50px;
+    padding: 86px 0px 0px 29px;
+}
+.focus{
+    height:25px;
+    width:65px;
+    float: left;
+    font-size:22px;
+    color: white;
+    font-weight: 700;
+}
+.showall{
+    height:25px;
+    width:69px;
+    float: right;
+    font-size:13px;
+    font-weight: 700;
+    padding: 7px 5px 0px 0px;
+}
+.playlist{
+    width:182px;
+    height:285px;
+    padding:0px 0px 0px 17px;
+    background-color: #181818;
+    border-radius: 5px;
+    margin-left: 30px;
+    float: left;
+}
+.playlisthead{
+    font-size: 15px;
+    padding:0;
+    color: white;
+    margin:0;
+    margin-top: 17px;
+}
+.playlisttext{
+    font-size:14px;
+    font-weight: 500;
+    margin:0;
+    margin-top:10px;
+    
+}
+.playlist img{
+    width:165px;
+    height: 165px;
+    border-radius:15px;
+    padding-top: 15px;
+}
+.description{
+    width:165px;
+}
+.playlist2{
+    width:182px;
+    height:285px;
+    padding:0px 0px 0px 17px;
+    background-color: #181818;
+    border-radius: 5px;
+    margin-left: 20px;
+    float: left;
+}
+.playlist2 img{
+    width:165px;
+    height: 165px;
+    border-radius:15px;
+    padding-top: 15px;
+}
+.spotifyplaylisttext{
+    height:25px;
+    width:170px;
+    float: left;
+    font-size:22px;
+    color: white;
+    font-weight: 700;
+    margin-left:29px;
+    margin-top: 40px;
+}
+.showall2{
+    height:25px;
+    width:69px;
+    float: right;
+    font-size:13px;
+    font-weight: 700;
+    padding: 7px 32px 0px 0px;
+    margin-top: 40px;
+}
+.play{
+    width:1122px;
+    height:286px;
+}
+.heading2{
+    width:1122px;
+    height:88px;
+}
+.line2{
+    width:1070px;
+    height:1px;
+    background-color:#2A2A2A;
+    margin-left: 29px;
+}
+.playlist:hover{
+    background-color:#282828;
+}
+.playlist2:hover{
+    background-color:#282828;
+}
+
+
+
+/* Footer  */
+
+
+.footer{
+    width:1536px;
+    height:91px;
+    background-color:#181818;
+    position: fixed;
+}
+
+.vol{
+    height:4px;
+    width:95px;
+    padding: 35px 22px 52px 1px;
+    float: right;
+}
+#vol{
+    height:4px;
+    width:95px;
+}
+.volico{
+    height: 22px;
+    width: 22px;
+    float: right;
+    padding: 39px 0px 28px 10px;
+
+}
+.volico img{
+    height:16px;
+    width: 16px;
+}
+.footerspace{
+    height:91px;
+    width:330px;
+    float:right;
+}
+.controls{
+    height:91px;
+    width:572px;
+    float:right;
+}
+.playercontrols{
+    height:56px;
+    width:572px;
+    float:right;
+}
+.seek{
+    height:35px;
+    width:572px;
+    float:right;
+}
+.repeatico{
+    width:20px;
+    height:20px;
+    float: right;
+    padding: 27px 190px 0px 0px;
+}
+.repeatico img{
+    width:17px;
+    height:16px;
+}
+.nextico{
+    width:20px;
+    height:20px;
+    float: right;
+    padding: 27px 19px 0px 0px;
+}
+.nextico img{
+    width:15px;
+    height:15px;
+}
+.pauseico{
+    width:20px;
+    height:20px;
+    float: right;
+    padding: 18px 37px 0px 0px;
+}
+.pauseico img{
+    width:33px;
+    height:33px;
+}
+.pauseico img:hover{
+    width:35px;
+    height:35px;
+}
+.previousico{
+    width:20px;
+    height:20px;
+    float: right;
+    padding: 26px 19px 0px 0px;
+}
+.previousico img{
+    width:17px;
+    height:18px;
+}
+.randomico{
+    width:20px;
+    height:20px;
+    float: right;
+    padding: 28px 22px 0px 0px;
+}
+.randomico img{
+    width:18px;
+    height:16px;
+}
+.playstarttime{
+    width:20px;
+    height:15px;
+    float: left;
+    padding:5px 5px 0px 0px;
+    font-size: 12px;
+    font-weight:300;
+
+}
+.seekbar{
+    width:512px;
+    height:25px;
+    float: left;
+}
+#seekbar{
+    width: 512px;
+    height:4px;
+    padding: 0px 0px 0px 0px;
+
+}
+.playendtime{
+    width:20px;
+    height:15px;
+    float: left;
+    padding:5px 0px 0px 10px;
+    font-size: 12px;
+    font-weight:300;
+}
+
+
+
+
+
+
+ ::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: none; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background:#545454; 
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background:#7E7E7E;
+  }
+    
+
+
+
+
